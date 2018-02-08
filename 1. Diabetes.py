@@ -1,12 +1,18 @@
-from tensorflow.python.keras.layers import Dense
-from tensorflow.python.keras.models import Sequential
+from tensorflow.python.keras.layers 
+import Dense
+from tensorflow.python.keras.models 
+import Sequential
 
 import numpy
+
 # fix random seed for reproducibility
+
 numpy.random.seed(7)
 # load pima indians dataset
 dataset = numpy.loadtxt("pima-indians-diabetes.csv", delimiter=",")
-# split into input (X) and output (Y) variables
+
+# split into input (X) and output (Y) 
+variables
 X = dataset[:,0:8]
 Y = dataset[:,8]
 
